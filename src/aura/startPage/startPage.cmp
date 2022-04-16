@@ -1,0 +1,6 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+
+    <c:header/>
+
+
+</aura:component>

@@ -1,0 +1,16 @@
+<apex:page showheader="false" standardStylesheets="false">
+    <apex:slds />
+    <apex:includeLightning />
+
+    <script>
+        $Lightning.use("c:ladaApp", function() {
+            $Lightning.createComponent("c:startPage",
+                {},
+                'startPage',
+                function(cmp) {
+                    console.log("Component is created!");
+                    console.log(cmp);
+                });
+            });        
+      </script>
+</apex:page>

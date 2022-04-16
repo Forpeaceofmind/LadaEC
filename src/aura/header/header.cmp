@@ -1,0 +1,22 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+
+    <lightning:tabset selectedTabId="Home">
+        <lightning:tab label="Model Range" id="modelRange">
+            <c:cars/>
+        </lightning:tab>
+        <lightning:tab label="Dealers" id="dealers">
+
+        </lightning:tab>
+        <lightning:tab label="Service" id="service">
+            <c:service/>
+        </lightning:tab>
+        <lightning:tab label="Oder Test Drive" id="testDrive">
+            <c:testDraive/>
+        </lightning:tab>
+        <lightning:tab label="Ask question" id="question">
+            <c:case/>
+        </lightning:tab>
+
+    </lightning:tabset>
+
+</aura:component>
