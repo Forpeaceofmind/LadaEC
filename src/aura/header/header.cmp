@@ -2,10 +2,10 @@
 
     <lightning:tabset selectedTabId="Home">
         <lightning:tab label="Model Range" id="modelRange">
-            <c:cars/>
+            <c:tableCars/>
         </lightning:tab>
         <lightning:tab label="Dealers" id="dealers">
-
+            <c:map/>
         </lightning:tab>
         <lightning:tab label="Service" id="service">
             <c:service/>

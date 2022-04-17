@@ -1,0 +1,78 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+
+    <ul class="slds-has-dividers_bottom-space">
+        <li class="slds-item">
+
+            <lightning:tile label="Granta Family">
+                <aura:set attribute="media">
+                    <lightning:avatar src="{!$Resource.GrGr}" size="large" fallbackIconName="standard:person_account"
+                                      alternativeText="Granta Family"/>
+                </aura:set>
+                <ul class="slds-list_horizontal slds-has-dividers_right">
+                    <li class="slds-item">
+                        <c:CarFam/>
+                    </li>
+
+                </ul>
+            </lightning:tile>
+        </li>
+        <li class="slds-item">
+            <lightning:tile label="Xray Family">
+                <aura:set attribute="media">
+                    <lightning:avatar src="{!$Resource.Granta}" size="large" fallbackIconName="standard:person_account"
+                                      alternativeText="Xray Family"/>
+                </aura:set>
+                <ul class="slds-list_horizontal slds-has-dividers_right">
+                    <li class="slds-item">
+                        <c:xrayFam/>
+                    </li>
+
+                </ul>
+            </lightning:tile>
+        </li>
+        <li class="slds-item">
+            <lightning:tile label="Vesta Family">
+                <aura:set attribute="media">
+                    <lightning:avatar src="{!$Resource.VestaZero}" fallbackIconName="standard:person_account"
+                                      size="large" alternativeText="Vesta Family"/>
+                </aura:set>
+                <ul class="slds-list_horizontal slds-has-dividers_right">
+                    <li class="slds-item">
+                        <c:vestaFam/>
+                    </li>
+
+                </ul>
+            </lightning:tile>
+        </li>
+        <li class="slds-item">
+            <lightning:tile label="Niva Family">
+                <aura:set attribute="media">
+                    <lightning:avatar src="{!$Resource.Av}" fallbackIconName="standard:person_account" size="large"
+                                      alternativeText="Niva Family"/>
+                </aura:set>
+
+                <ul class="slds-list_horizontal slds-has-dividers_right">
+                    <li class="slds-item">
+                        <c:NivaFam/>
+                    </li>
+
+                </ul>
+            </lightning:tile>
+        </li>
+        <li class="slds-item">
+            <lightning:tile label="Largus Family">
+                <aura:set attribute="media">
+                    <lightning:avatar src="{!$Resource.Largus}" fallbackIconName="standard:person_account" size="large"
+                                      alternativeText="Largus Family"/>
+                </aura:set>
+
+                <ul class="slds-list_horizontal slds-has-dividers_right">
+                    <li class="slds-item">
+                        <c:largusFam/>
+                    </li>
+
+                </ul>
+            </lightning:tile>
+        </li>
+    </ul>
+</aura:component>

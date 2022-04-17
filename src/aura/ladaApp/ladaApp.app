@@ -1,7 +1,7 @@
 <aura:application
-        access="GLOBAL"
-        extends="ltng:outApp"
-        implements="ltng:allowGuestAccess">
+  extends="ltng:outApp"
+  access="global"
+  implements="ltng:allowGuestAccess">
     <aura:dependency resource="c:startPage"/>
 
 </aura:application>

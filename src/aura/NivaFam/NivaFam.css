@@ -1,0 +1,13 @@
+.THIS {
+}
+
+.THIS.container {
+    width: 100%;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    border: 1px solid silver;
+    border-left: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: contain;
+}

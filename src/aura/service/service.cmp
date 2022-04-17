@@ -1,4 +1,4 @@
-<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" controller="ServiceMapControler">
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" controller= "ServiceMapControler">
 
     <aura:attribute name="mapMarkers" type="Object"/>
     <aura:attribute name="center" type="Object"/>

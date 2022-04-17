@@ -1,4 +1,17 @@
-<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
-	<aura:attribute name="models" type="Product2[]" />
- 
+<aura:component implements="forceCommunity:availableForAllPageTypes" >
+    <aura:attribute name="cars" type="Product2" />
+  	<dl class="item">
+    <div class="slds-region_narrow" style="width: 400px">
+      <dl class="slds-dl_inline">
+        <dt class="slds-dl_inline__label">Name:</dt>
+        <dd class="slds-dl_inline__detail">{!v.cars.Name}</dd>
+        <dt class="slds-dl_inline__label">Equipment</dt>
+        <dd class="slds-dl_inline__detail">"{!v.cars.Equipment__c}"</dd>
+        <dt class="slds-dl_inline__label">Engine</dt>
+        <dd class="slds-dl_inline__detail">{!v.cars.Engine__c}</dd>
+      </dl>
+    </div>
+  </dl>
+      
+
 </aura:component>

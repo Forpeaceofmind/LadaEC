@@ -1,0 +1,13 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" controller="VestaListInfo">
+    <aura:attribute name="products" type="Product2"/>
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    <lightning:tabset variant="scoped">
+        <aura:iteration items="{!v.products}" var="car">
+            <lightning:tab label="Vesta:">
+                <c:cars cars="{!car}"/>
+            </lightning:tab>
+        </aura:iteration>
+    </lightning:tabset>
+
+
+</aura:component>
